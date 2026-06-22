@@ -39,7 +39,7 @@ def main(
     if considerations_path.exists():
         # Replace section 'Considerations'
         readme_text = re.sub(
-            r"(?<=### Considerations\n)[\s\S]+?(?=###|$)",
+            r"(?<=### Considerations\n)[\s\S]+(?=###|$)",
             lambda _: f"\n{considerations_path.read_text()}\n\n",
             readme_text,
         )
