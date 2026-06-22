@@ -5,7 +5,7 @@
 install: && prepare
   uv sync
 
-prepare:
+prepare: clean
   rm -f CONSIDERATIONS.md # Agentic section
   uv run python ./scripts/generate-schemas.py
 
@@ -26,3 +26,4 @@ pre-commit: clean generate
 git-add branch_name: pre-commit
   git checkout -B {{branch_name}}
   git add --force output
+  git add rendercv
