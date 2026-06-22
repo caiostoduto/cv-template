@@ -28,7 +28,7 @@ $ just generate # or 'just watch'
 # ...
 
 # 7. Add the changes to your private repo (optionally)
-$ just git-add `branch_name` # I recommend giving it a name like "company-job_title-YYYY-MM-DD"
+$ just git-add `branch_name` # I recommend giving it a name like "company-job_title-language-YYYY-MM-DD"
 $ git commit -m "..."
 $ git push
 ```
