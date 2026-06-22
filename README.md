@@ -9,22 +9,25 @@ Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take t
 
 ## How to use
 
+1. Create a fork of this repository and change its visibility to private
+2. Clone the forked repository
+
 ### Manually
 
 ```sh
-# 1. Install all dependencies and prepare the project
+# 3. Install all dependencies and prepare the project
 $ just install
 
-# 2. Make changes to `rendercv/cv.yaml`
+# 4. Make changes to `rendercv/cv.yaml`
 # ...
 
-# 3. Generate and render the rendercv file
+# 5. Generate and render the rendercv file
 $ just generate # or 'just watch'
 
-# 4. Check the generated PDF (repeat step 2 as many times as you need!)
+# 6. Check the generated PDF (repeat step 2 as many times as you need!)
 # ...
 
-# 5. Add the changes to your private repo (optionally)
+# 7. Add the changes to your private repo (optionally)
 $ just git-add `branch_name` # I recommend giving it a name like "company-job_title-YYYY-MM-DD"
 $ git commit -m "..."
 $ git push
@@ -33,15 +36,15 @@ $ git push
 ### Agentic
 
 ```sh
-# 1. Install all dependencies and prepare the project
+# 3. Install all dependencies and prepare the project
 $ just install
 
-# 2. Ask an agentic AI (e.g.: AntiGravity IDE, GitHub Copilot, etc.) to
+# 4. Ask an agentic AI (e.g.: AntiGravity IDE, GitHub Copilot, etc.) to
 #     make changes (use PROMPT.md as guide).
 #
 #    If you use PROMPT.md as a guide,
-#     it'll probably already have done the manually section steps 2 to 5,
-#     otherwise just follow steps 3 to 5, it is non-destructive!
+#     it'll probably already have done the manually section steps 4 to 7,
+#     otherwise just follow steps 5 to 7, it is non-destructive!
 # ...
 ```
 
