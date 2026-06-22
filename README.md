@@ -37,7 +37,9 @@ $ git push
 $ just install
 
 # 2. Ask an agentic AI (e.g.: AntiGravity IDE, GitHub Copilot, etc.) to
-#     make changes (use PROMPT.md as guide), if you use PROMPT.md as a guide, 
+#     make changes (use PROMPT.md as guide).
+#
+#    If you use PROMPT.md as a guide,
 #     it'll probably already have done the manually section steps 2 to 5,
 #     otherwise just follow steps 3 to 5, it is non-destructive!
 # ...
