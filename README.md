@@ -43,7 +43,7 @@ $ just install
 #     make changes (use PROMPT.md as guide).
 #
 #    If you use PROMPT.md as a guide,
-#     it'll probably already have done the manually section steps 4 to 7,
+#     it'll probably already have done the steps 4 to 7 from the previous section 'Manually',
 #     otherwise just follow steps 5 to 7, it is non-destructive!
 # ...
 ```
