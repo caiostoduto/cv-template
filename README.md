@@ -1,4 +1,4 @@
-> Simpler Curriculum Vitae agentic AI automation with git automation
+> Simpler Curriculum Vitae agentic AI automation with git versioning
 
 Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take things out and put things in
 
