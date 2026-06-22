@@ -1,7 +1,5 @@
 > Simpler Curriculum Vitae agentic AI automation with git versioning
 
-Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take things out and put things in
-
 ## Requirements
 
 - [just](https://github.com/casey/just#installation)
@@ -45,6 +43,9 @@ $ just install
 #    If you use PROMPT.md as a guide,
 #     it'll probably already have done the steps 4 to 7 from the previous section 'Manually',
 #     otherwise just follow steps 5 to 7, it is non-destructive!
+#
+#    Suggestion: Put all your experience at `rendercv/cv.yaml` and
+#     let agentic take things out and complement what's already there
 # ...
 ```
 
