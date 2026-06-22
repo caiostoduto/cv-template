@@ -9,7 +9,7 @@ Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take t
 
 ## How to use
 
-1. Create a fork of this repository and change its visibility to private
+1. [Create a fork of this repository](https://github.com/caiostoduto/cv-template/fork) and [change its visibility to private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility)
 2. Clone the forked repository
 
 ### Manually
