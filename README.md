@@ -1,4 +1,12 @@
-> Simple Curriculum Vitae agentic AI automation with git versioning
+Simple Curriculum Vitae agentic AI automation with git versioning
+
+## Features
+
+- Git versioning: individual branches for each application
+- AI Agentic compatible: AI comprehensible structure
+  - Make your CV perfect for each different application and get a 'Goot to Know' description
+- Perfect formatting: uses [rendercv](https://github.com/rendercv/rendercv) to render
+  - [ATS friendly](https://docs.rendercv.com/ats_compatibility/)
 
 ## Requirements
 
