@@ -1,4 +1,4 @@
-> Simpler Curriculum Vitae agentic AI automation with git versioning
+> Simple Curriculum Vitae agentic AI automation with git versioning
 
 ## Requirements
 
@@ -7,47 +7,47 @@
 
 ## How to use
 
-1. [Create a fork of this repository](https://github.com/caiostoduto/cv-template/fork) and [change its visibility to private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility)
-2. Clone the forked repository
+#### 1. [Create a fork of this repository](https://github.com/caiostoduto/cv-template/fork) and [change its visibility to private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility)
 
-### Manually
+#### 2. Fork the repository
 
 ```sh
-# 3. Install all dependencies and prepare the project
+$ git clone ...
+```
+
+#### 3. Install all dependencies and prepare the project
+
+```sh
 $ just install
+```
 
-# 4. Make changes to `rendercv/cv.yaml`
-# ...
+#### 4. Make changes to `rendercv/cv.yaml`
 
-# 5. Generate and render the rendercv file
-$ just generate # or 'just watch'
+You should probably start by making changes manually editing the `rendercv/*yaml` files, mainly `cv.yaml` and `locale.yaml` (check section '[Understanding the project](#understanding-the-project-detailed)' for optional detailed instructions).
 
-# 6. Check the generated PDF (repeat step 2 as many times as you need!)
-# ...
+Afterwards, you can ask an **agentic AI** (e.g.: [Claude Code](https://claude.com/product/claude-code), [Cursor](https://cursor.com/), [GitHub Copilot](https://github.com/features/copilot), [Google AntiGravity](https://antigravity.google/), [OpenAI Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai/)) to do automatic changes. This repository provides a great prompt as a guide for doing those changes (check '[PROMPT.md](/PROMPT.md)'), and don't forget to replace the required fields.
 
-# 7. Add the changes to your private repo (optionally)
+> Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take things out and complement what's already there
+
+#### 5. Generate and render the rendercv file
+
+```sh
+$ just generate # or 'just watch' (requires watchexec)
+```
+
+#### 6. Check the generated PDF (repeat step 2 as many times as you need!)
+
+#### 7. Add the changes to your private repo (optionally)
+
+```sh
 $ just git-add `branch_name` # I recommend giving it a name like "company-job_title-language-YYYY-MM-DD"
 $ git commit -m "..."
 $ git push
 ```
 
-### Agentic
+## Understanding the project (detailed)
 
-```sh
-# 3. Install all dependencies and prepare the project
-$ just install
-
-# 4. Ask an agentic AI (e.g.: AntiGravity IDE, GitHub Copilot, etc.) to
-#     make changes (use PROMPT.md as guide).
-#
-#    If you use PROMPT.md as a guide,
-#     it'll probably already have done the steps 4 to 7 from the previous section 'Manually',
-#     otherwise just follow steps 5 to 7, it is non-destructive!
-#
-#    Suggestion: Put all your experience at `rendercv/cv.yaml` and
-#     let agentic take things out and complement what's already there
-# ...
-```
+WIP
 
 ## Results
 
