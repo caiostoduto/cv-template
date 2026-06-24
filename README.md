@@ -43,7 +43,7 @@ Afterwards, you can ask an **agentic AI** (e.g.: [Claude Code](https://claude.co
 $ just generate # or 'just watch' (requires watchexec)
 ```
 
-#### 6. Check the generated PDF (repeat step 2 as many times as you need!)
+#### 6. Check the generated PDF (repeat step 4 as many times as you need!)
 
 #### 7. Add the changes to your private repo (optionally)
 
