@@ -8,10 +8,9 @@ To enhance your knowledge, you should **research the company** (e.g., its operat
 
 Furthermore, you should create a `CONSIDERATIONS.md` file (use '####' for headers) in the project's root folder containing considerations and suggestions for the user to succeed in all stages of the application, including interview questions and salary negotiation suggestions. Also, include a grade from 1 to 10 of how well the resume is aligned with the job opening.
 
-Finally, run this command to complete your task (no need to read the `justfile`, just run it):
+Finally, as a completion acknowledgment, tell the user to run the following command (replace the <branch_name> with the following format: 'company-jobtitle-language-YYYY-MM-DD', e.g., 'google-softwareengineer-pt_BR-2026-06-22'):
 
 ```sh
-# the <branch_name> must follow this format: 'company-jobtitle-language-YYYY-MM-DD', e.g., 'google-softwareengineer-pt_BR-2026-06-22'
 $ just git-add <branch_name>
 ```
 
