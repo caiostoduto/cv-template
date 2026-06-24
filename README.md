@@ -5,7 +5,7 @@ Simple Curriculum Vitae agentic AI automation with git versioning
 - Git versioning: individual branches for each application
 - AI Agentic compatible: AI comprehensible structure
   - Make your CV perfect for each different application and get a 'Goot to Know' description
-- Perfect formatting: uses [rendercv](https://github.com/rendercv/rendercv) to render
+- Harvard Resume: uses [rendercv](https://github.com/rendercv/rendercv) to render
   - [ATS friendly](https://docs.rendercv.com/ats_compatibility/)
 
 ## Requirements
@@ -35,7 +35,8 @@ You should probably start by making changes manually editing the `rendercv/*yaml
 
 Afterwards, you can ask an **agentic AI** (e.g.: [Claude Code](https://claude.com/product/claude-code), [Cursor](https://cursor.com/), [GitHub Copilot](https://github.com/features/copilot), [Google AntiGravity](https://antigravity.google/), [OpenAI Codex](https://openai.com/codex/), [OpenCode](https://opencode.ai/)) to do automatic changes. This repository provides a great prompt as a guide for doing those changes (check '[PROMPT.md](/PROMPT.md)'), and don't forget to replace the required fields.
 
-> ✨ Suggestion: Put all your experience at `rendercv/cv.yaml` and let agentic take things out and complement what's already there
+> [!TIP]
+> Put all your experience at `rendercv/cv.yaml` and let agentic take things out and complement what's already there
 
 #### 5. Generate and render the rendercv file
 
